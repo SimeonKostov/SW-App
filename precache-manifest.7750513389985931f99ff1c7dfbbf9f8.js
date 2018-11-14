@@ -12,23 +12,23 @@ self.__precacheManifest = [
     "url": "/SW-app/static/js/runtime~main.d8524c36.js"
   },
   {
-    "revision": "a5b0c21cae23f89c208b",
-    "url": "/SW-app/static/js/main.a5b0c21c.chunk.js"
+    "revision": "88b994e27a6a4102e6df",
+    "url": "/SW-app/static/js/main.88b994e2.chunk.js"
   },
   {
-    "revision": "1bb31c8436cff6ab56e8",
-    "url": "/SW-app/static/js/1.1bb31c84.chunk.js"
+    "revision": "f71f12a11335d626f1a8",
+    "url": "/SW-app/static/js/1.f71f12a1.chunk.js"
   },
   {
-    "revision": "a5b0c21cae23f89c208b",
-    "url": "/SW-app/static/css/main.70ab47e8.chunk.css"
+    "revision": "88b994e27a6a4102e6df",
+    "url": "/SW-app/static/css/main.cdb35121.chunk.css"
   },
   {
-    "revision": "1bb31c8436cff6ab56e8",
-    "url": "/SW-app/static/css/1.db6deeda.chunk.css"
+    "revision": "f71f12a11335d626f1a8",
+    "url": "/SW-app/static/css/1.38ebca85.chunk.css"
   },
   {
-    "revision": "a79094af556bd81eac7c3da498f3fe81",
+    "revision": "dc95735073af86d88019f5b4972ed7fd",
     "url": "/SW-app/index.html"
   }
 ];
