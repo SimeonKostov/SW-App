@@ -1,7 +1,7 @@
 {
   "main.css": "/SW-app/static/css/main.cdb35121.chunk.css",
-  "main.js": "/SW-app/static/js/main.88b994e2.chunk.js",
-  "main.js.map": "/SW-app/static/js/main.88b994e2.chunk.js.map",
+  "main.js": "/SW-app/static/js/main.28c7c212.chunk.js",
+  "main.js.map": "/SW-app/static/js/main.28c7c212.chunk.js.map",
   "static/css/1.38ebca85.chunk.css": "/SW-app/static/css/1.38ebca85.chunk.css",
   "static/js/1.f71f12a1.chunk.js": "/SW-app/static/js/1.f71f12a1.chunk.js",
   "static/js/1.f71f12a1.chunk.js.map": "/SW-app/static/js/1.f71f12a1.chunk.js.map",
@@ -12,6 +12,6 @@
   "static/media/index.css": "/SW-app/static/media/bryan-goff-395922-unsplash.33f70011.jpg",
   "static/css/1.38ebca85.chunk.css.map": "/SW-app/static/css/1.38ebca85.chunk.css.map",
   "index.html": "/SW-app/index.html",
-  "precache-manifest.7750513389985931f99ff1c7dfbbf9f8.js": "/SW-app/precache-manifest.7750513389985931f99ff1c7dfbbf9f8.js",
+  "precache-manifest.9c7be27d2efbe2bab8799a3c057edd4e.js": "/SW-app/precache-manifest.9c7be27d2efbe2bab8799a3c057edd4e.js",
   "service-worker.js": "/SW-app/service-worker.js"
 }
