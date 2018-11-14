@@ -5,10 +5,10 @@ import 'tachyons';
 class SideBar extends Component{
     render(){
         return(
-            <div className='side-bar fl w-20 pa3'>
+            <div className='w-25 pa3'>
                  {
                      this.props.options.map(option=>{
-                         return <SideBarOption option={option}/>
+                         return <SideBarOption key={option} option={option} onContentChange={this.props.onContentChange}/>
                      })
                  }
             </div>
