@@ -32,7 +32,7 @@ class GeneralContainer extends Component{
         let {type, content}=this.state;
         console.log(content);
         return(
-            <div className='flex flex-wrap flex-column'>
+            <div className='flex flex-wrap'>
                 <SideBar options={options} onContentChange={this.onContentChange}/>
                 <ResultsList cont={content} contType={type}/>
             </div>
