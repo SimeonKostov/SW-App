@@ -1,17 +1,17 @@
 {
   "main.css": "/SW-app/static/css/main.cdb35121.chunk.css",
-  "main.js": "/SW-app/static/js/main.0784abcf.chunk.js",
-  "main.js.map": "/SW-app/static/js/main.0784abcf.chunk.js.map",
+  "main.js": "/SW-app/static/js/main.5a24942c.chunk.js",
+  "main.js.map": "/SW-app/static/js/main.5a24942c.chunk.js.map",
   "static/css/1.38ebca85.chunk.css": "/SW-app/static/css/1.38ebca85.chunk.css",
   "static/js/1.f71f12a1.chunk.js": "/SW-app/static/js/1.f71f12a1.chunk.js",
   "static/js/1.f71f12a1.chunk.js.map": "/SW-app/static/js/1.f71f12a1.chunk.js.map",
   "runtime~main.js": "/SW-app/static/js/runtime~main.d8524c36.js",
   "runtime~main.js.map": "/SW-app/static/js/runtime~main.d8524c36.js.map",
-  "static/css/main.cdb35121.chunk.css.map": "/SW-app/static/css/main.cdb35121.chunk.css.map",
+  "static/css/1.38ebca85.chunk.css.map": "/SW-app/static/css/1.38ebca85.chunk.css.map",
   "static/media/logo.png": "/SW-app/static/media/logo.93895aa2.png",
   "static/media/index.css": "/SW-app/static/media/bryan-goff-395922-unsplash.33f70011.jpg",
-  "static/css/1.38ebca85.chunk.css.map": "/SW-app/static/css/1.38ebca85.chunk.css.map",
+  "static/css/main.cdb35121.chunk.css.map": "/SW-app/static/css/main.cdb35121.chunk.css.map",
   "index.html": "/SW-app/index.html",
-  "precache-manifest.4aeb7e67ed4d0ae7e4dc887fd6958fb4.js": "/SW-app/precache-manifest.4aeb7e67ed4d0ae7e4dc887fd6958fb4.js",
+  "precache-manifest.6b4a8f44fc5309daf50f8f19d20b7767.js": "/SW-app/precache-manifest.6b4a8f44fc5309daf50f8f19d20b7767.js",
   "service-worker.js": "/SW-app/service-worker.js"
 }
