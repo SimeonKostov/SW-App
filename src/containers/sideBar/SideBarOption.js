@@ -15,10 +15,7 @@ const mapStateToProps=(state)=>{
 
 const mapDispatchToProps=(dispatch)=>{
     return{
-        onContentChange: (event)=>{
-            console.log(event.target)
-            return requestContent(dispatch, event.target.id);
-        }
+        onContentChange: (event)=>requestContent(dispatch, event.target.id)
     }
 }
 class SideBarOption extends Component{
