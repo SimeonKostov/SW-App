@@ -8,10 +8,11 @@ import {requestContent} from '../actions';
 
 const mapStateToProps=(state)=>{
     return {
-        isPending: state.isPending,
-        type: state.type,
-        content: state.content,
-        error: state.error
+        isPending: state.requestContent.isPending,
+        type: state.requestContent.type,
+        content: state.requestContent.content,
+        error: state.requestContent.error,
+        searchField: state.onSearch.searchField
     }
 }
 
@@ -28,7 +29,12 @@ class ResultsList extends Component {
     }
 
     render(){
-        const {isPending, content, type}=this.props;
+        const {isPending, content, type, searchField}=this.props;
+
+        const filteredContent=content.filter(element=>{
+            return element.name.toLowerCase().includes(searchField.toLowerCase());
+        });
+
         if(isPending){
             return(
                 <div className='tc w-75'>
@@ -41,7 +47,7 @@ class ResultsList extends Component {
                     <h1 className='yellow'>{type.toUpperCase()}</h1>
                    {
                     (type === 'people' || type === 'planets') ?
-                    content.map(el=>{
+                    filteredContent.map(el=>{
                         switch(type){
                             case 'people':
                                 return (
