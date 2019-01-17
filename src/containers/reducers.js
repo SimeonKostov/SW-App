@@ -40,14 +40,15 @@ export const onSearch=(state=initialSearchState, action={})=>{
 
 const initialRecordingState={
     isRecording: false,
-    mediaRecorder: {},
+    stream: {},
     audio: {}
 }
 
 export const voiceRecording=(state=initialRecordingState, action={})=>{
     switch(action.type){
         case START_VOICE_RECORDING:
-            return Object.assign({}, state, {isRecording: true, mediaRecorder: action.payload.mediaRecorder});
+            // console.log(action.payload.stream);
+            return Object.assign({}, state, {isRecording: true, stream: action.payload.stream});
         case STOP_VOICE_RECORDING:
             return Object.assign({}, state, {isRecording: false})
         default: 
