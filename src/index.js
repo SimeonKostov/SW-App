@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {createStore, applyMiddleware} from 'redux';
+import {createStore, applyMiddleware, combineReducers} from 'redux';
 import {Provider} from 'react-redux';
 import thunkMiddleware from 'redux-thunk';
 import logger from 'redux-logger';
-import {requestContent} from './containers/reducers';
+import {requestContent, onSearch, voiceRecording} from './containers/reducers';
 import './index.css';
 import App from './components/app/App';
 import * as serviceWorker from './serviceWorker';
 
-const store=createStore(requestContent, applyMiddleware(thunkMiddleware, logger));
+const rootReducer=combineReducers({requestContent, onSearch, voiceRecording});
+const store=createStore(rootReducer, applyMiddleware(thunkMiddleware, logger));
 
 ReactDOM.render(<Provider store={store}>
                     <App />
